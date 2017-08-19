@@ -1,64 +1,21 @@
 ---
 title: Patrick Kreitzberg
 ---
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/PatrickKreitzberg/PatrickKreitzberg.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PatrickKreitzberg/PatrickKreitzberg.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
 # Greenland
 
-run greenland.py
-
-<ul class="posts">
-    {% for post in site.posts %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
-
-
-
-https://umt.box.com/s/8nosww6t9q0vhdtcsdlh3tpee8g3b1sx
+## Table of contents:
+1. Dependencies
+2. Data & Acknowledgements
+3. Run Model
+4. Plot Data Along A Path
 
 ![Image](http://www.patkreitzberg.com/gl.png)
 
+# DEPENDENCIES
 
-These are the dependencies.  I am using Python2.7
+(Python 2.7)
 
-    INSTALL FENICS	
+## Fenics
 
 sudo add-apt-repository ppa:fenics-packages/fenics
 
@@ -68,28 +25,31 @@ sudo apt-get install --no-install-recommends fenics
 
 sudo apt-get dist-upgrade
 
-    INSTALL PYLAB
+## PyLab
 
 sudo apt-get install python-numpy python-scipy python-matplotlib
 
-    INSTALL PYQTGRAPH
+## PyQtGraph
 
 sudo pip install pyqtgraph
 
-    INSTALL h5py
+## H5py
 
 sudo pip install h5py
 
-    INSTALL pyqt4  (I don't think pyqt5 works with python 2.7)
+## PyQt4  
+(I don't think PyQt5 works with python 2.7)
     
-    INSTALL PyDistMesh
+## PyDistMesh
 sudo pip install PyDistMesh
 
 apt-cache search pyqt
 
 sudo apt-get install python-qt4
 
-    ACKNOWLEDGEMENTS
+# DATA AND ACKNOWLEDGEMENTS
+
+https://umt.box.com/s/8nosww6t9q0vhdtcsdlh3tpee8g3b1sx
 
     Velocity Data:
 

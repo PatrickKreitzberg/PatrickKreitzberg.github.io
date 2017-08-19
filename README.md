@@ -6,10 +6,12 @@ title: Patrick Kreitzberg
 ## Table of contents:
 1. [Dependencies](#dependencies)
 2. [Data & Acknowledgements](#data)
-3. Run Model
-4. Plot Data Along A Path
+3. [Introduction](#introduction)
+4. Buttons
+5. Run Model
+6. Plot Data Along A Path
 
-![Image](http://www.patkreitzberg.com/gl.png)
+
 
 <a name="dependencies"></a>
 # DEPENDENCIES
@@ -40,6 +42,13 @@ sudo apt-get install python-qt4
 sudo pip install PyDistMesh  
 apt-cache search pyqt  
 sudo apt-get install python-qt4
+
+<a name="introduction"></a>
+# INTRODUCTION
+This was created by Patrick Kreitzberg and Dr. Jesse Johnson at the University of Montana.  The program is a tool to help create data profiles using a gui. yada yada  
+
+![Image](http://www.patkreitzberg.com/gl.png)
+
 
 <a name="data"></a>
 # DATA AND ACKNOWLEDGEMENTS

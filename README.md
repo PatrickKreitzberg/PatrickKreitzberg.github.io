@@ -23,16 +23,13 @@ sudo apt-get update
 sudo apt-get install --no-install-recommends fenics   
 sudo apt-get dist-upgrade  
 
-### PyLab
-
+### PyLab  
 sudo apt-get install python-numpy python-scipy python-matplotlib
 
-### PyQtGraph
-
+### PyQtGraph  
 sudo pip install pyqtgraph
 
-### H5py
-
+### H5py  
 sudo pip install h5py
 
 ### PyQt4  

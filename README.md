@@ -21,7 +21,7 @@ title: Patrick Kreitzberg
 <li>sudo add-apt-repository ppa:fenics-packages/fenics</li>
 <li>sudo apt-get update</li>
 
-sudo apt-get install --no-install-recommends fenics .nobr   { white-space:nowrap; }
+sudo apt-get install --no-install-recommends fenics <nobr>
 sudo apt-get dist-upgrade
 
 

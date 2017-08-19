@@ -23,7 +23,6 @@ sudo apt-get update
 sudo apt-get install --no-install-recommends fenics   
 sudo apt-get dist-upgrade  
 
-
 ### PyLab
 
 sudo apt-get install python-numpy python-scipy python-matplotlib
@@ -40,10 +39,8 @@ sudo pip install h5py
 (I don't think PyQt5 works with python 2.7)
     
 ### PyDistMesh
-sudo pip install PyDistMesh
-
-apt-cache search pyqt
-
+sudo pip install PyDistMesh  
+apt-cache search pyqt  
 sudo apt-get install python-qt4
 
 <a name="data"></a>
@@ -61,10 +58,8 @@ Department of Earth System Science, University of California, Irvine
 
     SMB, t2m Data:
 
-Brice Noël
-
-Institute for Marine and Atmospheric Research (IMAU)
-
+Brice Noël  
+Institute for Marine and Atmospheric Research (IMAU)  
 Utrecht University
 
     Surface, bed, and thickness data:

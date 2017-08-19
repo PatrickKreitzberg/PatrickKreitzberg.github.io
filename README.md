@@ -5,7 +5,7 @@ title: Patrick Kreitzberg
 
 ## Table of contents:
 1. [Dependencies](#dependencies)
-2. Data & Acknowledgements
+2. [Data & Acknowledgements](#data)
 3. Run Model
 4. Plot Data Along A Path
 

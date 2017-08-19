@@ -19,10 +19,13 @@ title: Patrick Kreitzberg
 ### Fenics
 
 sudo add-apt-repository ppa:fenics-packages/fenics
+
 sudo apt-get update
+
 sudo apt-get install --no-install-recommends fenics
-<p>sudo apt-get dist-upgrade
-</p>
+
+sudo apt-get dist-upgrade
+
 
 ### PyLab
 

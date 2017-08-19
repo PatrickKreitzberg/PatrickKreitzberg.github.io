@@ -16,7 +16,7 @@ title: Patrick Kreitzberg
 
 (Python 2.7)
 
-## Fenics
+### Fenics
 
 sudo add-apt-repository ppa:fenics-packages/fenics
 
@@ -26,22 +26,22 @@ sudo apt-get install --no-install-recommends fenics
 
 sudo apt-get dist-upgrade
 
-## PyLab
+### PyLab
 
 sudo apt-get install python-numpy python-scipy python-matplotlib
 
-## PyQtGraph
+### PyQtGraph
 
 sudo pip install pyqtgraph
 
-## H5py
+### H5py
 
 sudo pip install h5py
 
-## PyQt4  
+### PyQt4  
 (I don't think PyQt5 works with python 2.7)
     
-## PyDistMesh
+### PyDistMesh
 sudo pip install PyDistMesh
 
 apt-cache search pyqt

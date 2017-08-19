@@ -33,7 +33,8 @@ sudo pip install pyqtgraph
 sudo pip install h5py
 
 ### PyQt4  
-(I don't think PyQt5 works with python 2.7)
+(I don't think PyQt5 works with python 2.7)  
+sudo apt-get install python-qt4
     
 ### PyDistMesh
 sudo pip install PyDistMesh  

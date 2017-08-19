@@ -4,13 +4,14 @@ title: Patrick Kreitzberg
 # Greenland
 
 ## Table of contents:
-1. Dependencies
+1. [Dependencies](#dependencies)
 2. Data & Acknowledgements
 3. Run Model
 4. Plot Data Along A Path
 
 ![Image](http://www.patkreitzberg.com/gl.png)
 
+<a name="dependencies"></a>
 # DEPENDENCIES
 
 (Python 2.7)
@@ -47,6 +48,7 @@ apt-cache search pyqt
 
 sudo apt-get install python-qt4
 
+<a name="data"></a>
 # DATA AND ACKNOWLEDGEMENTS
 
 https://umt.box.com/s/8nosww6t9q0vhdtcsdlh3tpee8g3b1sx

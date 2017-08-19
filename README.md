@@ -18,9 +18,8 @@ title: Patrick Kreitzberg
 
 ### Fenics
 
-sudo add-apt-repository ppa:fenics-packages/fenics
-
-sudo apt-get update
+<li>sudo add-apt-repository ppa:fenics-packages/fenics</li>
+<li>sudo apt-get update</li>
 
 sudo apt-get install --no-install-recommends fenics
 

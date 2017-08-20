@@ -47,8 +47,11 @@ sudo pip install PyDistMesh
 
 <a name="data"></a>
 # DATA AND ACKNOWLEDGEMENTS
+All data is the dataset with all the underlying data.  It is an hdf5 file with the velocity, surface, bed etc. data as numpy arrays.  The currently available dataset have a larger resolution ~900m.  A larger dataset with 150m resolution will be available soon.
 
-[All data](https://umt.box.com/s/8nosww6t9q0vhdtcsdlh3tpee8g3b1sx)
+The colormap data file is also a hdf5 file but the data are 8bit length 3 RGB arrays.  There is a colormap for each of the underlying data sets.  The colormaps are full resolution so the file size is 2.5 GB.
+
+[All data](https://umt.box.com/s/8nosww6t9q0vhdtcsdlh3tpee8g3b1sx)  
 [Colormap data](https://umt.box.com/s/0lbko76deskxxmbgb7wqn8s50cza2h0f)
 
 <a name="ack"></a>

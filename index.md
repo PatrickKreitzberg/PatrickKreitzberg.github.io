@@ -38,14 +38,11 @@ sudo pip install h5py
 
 ### PyQt4  
 (I don't think PyQt5 works with python 2.7)  
+apt-cache search pyqt  
 sudo apt-get install python-qt4
     
 ### PyDistMesh
 sudo pip install PyDistMesh  
-apt-cache search pyqt  
-sudo apt-get install python-qt4
-
-
 
 <a name="data"></a>
 # DATA AND ACKNOWLEDGEMENTS

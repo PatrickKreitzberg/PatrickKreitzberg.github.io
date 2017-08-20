@@ -5,7 +5,7 @@
 2. [Dependencies](#dependencies)
 3. [Data](#data)
 4. [Acknowledgements](#ack)
-5. Buttons
+5. [UI Features](#uifeatures)
 6. Run Model
 7. Plot Data Along A Path
 
@@ -46,7 +46,7 @@ sudo apt-get install python-qt4
 sudo pip install PyDistMesh  
 
 <a name="data"></a>
-# DATA AND ACKNOWLEDGEMENTS
+# DATA
 All data is the dataset with all the underlying data.  It is an hdf5 file with the velocity, surface, bed etc. data as numpy arrays.  The currently available dataset have a larger resolution ~900m.  A larger dataset with 150m resolution will be available soon.
 
 The colormap data file is also a hdf5 file but the data are 8bit length 3 RGB arrays.  There is a colormap for each of the underlying data sets.  The colormaps are full resolution so the file size is 2.5 GB.
@@ -55,7 +55,8 @@ The colormap data file is also a hdf5 file but the data are 8bit length 3 RGB ar
 [Colormap data](https://umt.box.com/s/0lbko76deskxxmbgb7wqn8s50cza2h0f)
 
 <a name="ack"></a>
-# Velocity Data:
+# ACKNOWLEDGEMENTS
+## Velocity Data:
 
 J. Mouginot
 
@@ -63,13 +64,13 @@ Jeremie Mouginot, Eric Rignot, Bernd Scheuchl, and Romain Millan, Comprehensive 
 
 Department of Earth System Science, University of California, Irvine
 
-# SMB, t2m Data:
+## SMB, t2m Data:
 
 Brice Noël  
 Institute for Marine and Atmospheric Research (IMAU)  
 Utrecht University
 
-# Surface, bed, and thickness data:
+## Surface, bed, and thickness data:
 
 Mathieu Morlighem
 
@@ -78,4 +79,10 @@ BedMachine Greenland
 Department of Earth System Science, University of California Irvine
 
 M. Morlighem, E. Rignot, J. Mouginot, H. Seroussi and E. Larour, Deeply incised submarine glacial valleys beneath the Greenland Ice Sheet, Nat. Geosci., 7, 418-422, 2014, doi:10.1038/ngeo2167, http://www.nature.com/ngeo/journal/vaop/ncurrent/full/ngeo2167.html
+
+<a name="uifeatures"></a>
+# UI Features
+
+
+
 

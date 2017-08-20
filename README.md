@@ -1,4 +1,4 @@
-.nobr   { white-space:nowrap; }---
+---
 title: Patrick Kreitzberg
 ---
 # Greenland

@@ -1,14 +1,19 @@
 # Greenland 
 
 ## Table of contents:
-1. [Dependencies](#dependencies)
-2. [Data & Acknowledgements](#data)
-3. [Introduction](#introduction)
+1. [Introduction](#introduction)
+2. [Dependencies](#dependencies)
+3. [Data & Acknowledgements](#data)
 4. Buttons
 5. Run Model
 6. Plot Data Along A Path
 
 
+<a name="introduction"></a>
+# INTRODUCTION
+This was created by Patrick Kreitzberg and Dr. Jesse Johnson at the University of Montana.  The program is a tool to help create data profiles using a gui. yada yada  
+
+![Image](http://www.patkreitzberg.com/gl.png)
 
 <a name="dependencies"></a>
 # DEPENDENCIES
@@ -40,11 +45,6 @@ sudo pip install PyDistMesh
 apt-cache search pyqt  
 sudo apt-get install python-qt4
 
-<a name="introduction"></a>
-# INTRODUCTION
-This was created by Patrick Kreitzberg and Dr. Jesse Johnson at the University of Montana.  The program is a tool to help create data profiles using a gui. yada yada  
-
-![Image](http://www.patkreitzberg.com/gl.png)
 
 
 <a name="data"></a>

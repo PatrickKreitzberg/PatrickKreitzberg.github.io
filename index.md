@@ -3,10 +3,11 @@
 ## Table of contents:
 1. [Introduction](#introduction)
 2. [Dependencies](#dependencies)
-3. [Data & Acknowledgements](#data)
-4. Buttons
-5. Run Model
-6. Plot Data Along A Path
+3. [Data](#data)
+4. [Acknowledgements](#ack)
+5. Buttons
+6. Run Model
+7. Plot Data Along A Path
 
 
 <a name="introduction"></a>
@@ -47,8 +48,10 @@ sudo pip install PyDistMesh
 <a name="data"></a>
 # DATA AND ACKNOWLEDGEMENTS
 
-[data dl link](https://umt.box.com/s/8nosww6t9q0vhdtcsdlh3tpee8g3b1sx)
+[All data](https://umt.box.com/s/8nosww6t9q0vhdtcsdlh3tpee8g3b1sx)
+[Colormap data](https://umt.box.com/s/0lbko76deskxxmbgb7wqn8s50cza2h0f)
 
+<a name="ack"></a>
 # Velocity Data:
 
 J. Mouginot

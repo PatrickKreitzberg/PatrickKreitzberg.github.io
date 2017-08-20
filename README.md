@@ -1,6 +1,3 @@
----
-title: Patrick Kreitzberg
----
 # Greenland 
 
 ## Table of contents:

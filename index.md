@@ -13,7 +13,7 @@
 
 <a name="introduction"></a>
 # INTRODUCTION
-This was created by Patrick Kreitzberg and Dr. Jesse Johnson at the University of Montana.  The program is a tool to help create data profiles using a gui. yada yada  
+This was created by Patrick Kreitzberg under the guidance of Dr. Jesse Johnson at the University of Montana.  The program is a tool to help create data profiles using a gui. yada yada  
 
 ![Image](http://www.patkreitzberg.com/gl.png)
 

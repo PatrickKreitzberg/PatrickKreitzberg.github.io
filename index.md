@@ -6,8 +6,9 @@
 3. [Data](#data)
 4. [Acknowledgements](#ack)
 5. [UI Features](#uifeatures)
-6. Run Model
-7. Plot Data Along A Path
+6. [Markers](#markers)
+7. Run Model
+8. Plot Data Along A Path
 
 
 <a name="introduction"></a>
@@ -80,8 +81,23 @@ Department of Earth System Science, University of California Irvine
 
 M. Morlighem, E. Rignot, J. Mouginot, H. Seroussi and E. Larour, Deeply incised submarine glacial valleys beneath the Greenland Ice Sheet, Nat. Geosci., 7, 418-422, 2014, doi:10.1038/ngeo2167, http://www.nature.com/ngeo/journal/vaop/ncurrent/full/ngeo2167.html
 
+<a name="markers"></a>
+# Markers
+The markers select your path along which data will be examined.  To mark a spot click on the map wherever.  Multiple clicks will create multiple spots which will automatically form a line between each successive marker.  
+* <b>Create:</b> click on map.  
+* <b>Remove:</b> ctrl + click on marker.  
+* <b>Move:</b> click once on marker to pick it up then again to place it down.  
+* <b>Integrate:</b> shift + click to create a line from the marker which follows the velocity flow.  
+* <b>Snap:</b> move a marker near an integrate line then click when it snaps to line.  
+
+
 <a name="uifeatures"></a>
 # UI Features
+
+1. Colormap image with key
+    
+
+
 
 
 

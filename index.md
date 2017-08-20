@@ -49,7 +49,7 @@ sudo pip install PyDistMesh
 
 [data dl link](https://umt.box.com/s/8nosww6t9q0vhdtcsdlh3tpee8g3b1sx)
 
-    Velocity Data:
+# Velocity Data:
 
 J. Mouginot
 
@@ -57,13 +57,13 @@ Jeremie Mouginot, Eric Rignot, Bernd Scheuchl, and Romain Millan, Comprehensive 
 
 Department of Earth System Science, University of California, Irvine
 
-    SMB, t2m Data:
+# SMB, t2m Data:
 
 Brice Noël  
 Institute for Marine and Atmospheric Research (IMAU)  
 Utrecht University
 
-    Surface, bed, and thickness data:
+# Surface, bed, and thickness data:
 
 Mathieu Morlighem
 

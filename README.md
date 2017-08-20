@@ -1,7 +1,7 @@
 ---
 title: Patrick Kreitzberg
 ---
-# Greenland
+# Greenland 
 
 ## Table of contents:
 1. [Dependencies](#dependencies)

@@ -83,6 +83,13 @@ Department of Earth System Science, University of California Irvine
 
 M. Morlighem, E. Rignot, J. Mouginot, H. Seroussi and E. Larour, Deeply incised submarine glacial valleys beneath the Greenland Ice Sheet, Nat. Geosci., 7, 418-422, 2014, doi:10.1038/ngeo2167, http://www.nature.com/ngeo/journal/vaop/ncurrent/full/ngeo2167.html
 
+<a name="uifeatures"></a>
+# UI Features
+
+1. Colormap image with key  
+2. Map drop down selection
+* Select colormap of different data sets (bed elevation, surface elevation, etc.)
+
 <a name="markers"></a>
 # Markers
 The markers select your path along which data will be examined.  To mark a spot click on the map wherever.  Multiple clicks will create multiple spots which will automatically form a line between each successive marker.  
@@ -93,10 +100,7 @@ The markers select your path along which data will be examined.  To mark a spot 
 * <b>Snap:</b> move a marker near an integrate line then click when it snaps to line.  
 
 
-<a name="uifeatures"></a>
-# UI Features
 
-1. Colormap image with key
     
 
 

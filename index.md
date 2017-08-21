@@ -11,6 +11,12 @@
 7. Run Model
 8. Plot Data Along A Path
 
+<div style="text-align: right"> [[!format  mdwn """
+This is my text with [a markdown link](#top).
+
+Here's a *second* paragraph.
+"""]] </div>
+
 
 <a name="introduction"></a>
 # INTRODUCTION

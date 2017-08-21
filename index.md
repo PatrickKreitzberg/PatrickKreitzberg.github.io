@@ -11,13 +11,6 @@
 7. Run Model
 8. Plot Data Along A Path
 
-<div style="text-align: right"> [[!format  mdwn """
-This is my text with [a markdown link](#top).
-
-Here's a *second* paragraph.
-"""]] </div>
-
-
 <a name="introduction"></a>
 # INTRODUCTION
 This was created by Patrick Kreitzberg under the guidance of Dr. Jesse Johnson at the University of Montana.  The program is a tool to help create data profiles using a gui. yada yada  
@@ -54,7 +47,7 @@ sudo apt-get install python-qt4
 sudo pip install PyDistMesh  
 P.-O. Persson, G. Strang, A Simple Mesh Generator in MATLAB. SIAM Review, Volume 46 (2), pp. 329-345, June 2004  
 
-[TOP](#top)
+[top](#top)
 <a name="data"></a>
 # DATA
 (Place in ./data directory)  
@@ -65,7 +58,7 @@ The colormap data file is also a hdf5 file but the data are 8bit length 3 RGB ar
 [All data](https://umt.box.com/s/8nosww6t9q0vhdtcsdlh3tpee8g3b1sx)  
 [Colormap data](https://umt.box.com/s/0lbko76deskxxmbgb7wqn8s50cza2h0f)
 
-[TOP](#top)  
+[top](#top)  
 <a name="ack"></a>
 # ACKNOWLEDGEMENTS
 ## Velocity Data:
@@ -92,7 +85,7 @@ Department of Earth System Science, University of California Irvine
 
 M. Morlighem, E. Rignot, J. Mouginot, H. Seroussi and E. Larour, Deeply incised submarine glacial valleys beneath the Greenland Ice Sheet, Nat. Geosci., 7, 418-422, 2014, doi:10.1038/ngeo2167, http://www.nature.com/ngeo/journal/vaop/ncurrent/full/ngeo2167.html
 
-[TOP](#top)  
+[top](#top)  
 <a name="uifeatures"></a>
 # UI Features
 
@@ -100,7 +93,7 @@ M. Morlighem, E. Rignot, J. Mouginot, H. Seroussi and E. Larour, Deeply incised 
 2. Map drop down selection
 * Select colormap of different data sets (bed elevation, surface elevation, etc.)
 
-[TOP](#top)  
+[top](#top)  
 <a name="markers"></a>
 # Markers
 The markers select your path along which data will be examined.  To mark a spot click on the map wherever.  Multiple clicks will create multiple spots which will automatically form a line between each successive marker.  

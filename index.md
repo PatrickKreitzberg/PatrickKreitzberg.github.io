@@ -103,6 +103,7 @@ The markers select your path along which data will be examined.  To mark a spot 
 * <b>Move:</b> click once on marker to pick it up then again to place it down.  
 * <b>Integrate:</b> shift + click to create a line from the marker which follows the velocity flow.  
 * <b>Snap:</b> move a marker near an integrate line then click when it snaps to line.  
+
 [top](#top)
 
 <a name="todo"></a>
@@ -118,6 +119,6 @@ The markers select your path along which data will be examined.  To mark a spot 
 * <b>STATIC PLOTTER</b>
     * Don't always create 3 plots.  Can do more or less
     * Right side panel max width
-    * Could do 6 grid boxes with 5 plots and 1 for buttons
-
+    * Could do 6 grid boxes with 5 plots and 1 for buttons  
+[top](#top)
 

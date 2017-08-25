@@ -122,6 +122,6 @@ The markers select your path along which data will be examined.  To mark a spot 
     * Could do 6 grid boxes with 5 plots and 1 for buttons 
 * <b>BUGS</b>
     * Plot path, remove 'plot all' then click plot velocity width then plot -> crashes
-    * Mesh can get a 'reduced to zero array' error -> find out how to trigger and fix/give instructions
+    * Mesh can get a 'reduced to zero array' error -> find out how to trigger and fix/give instructions  
 [top](#top)
 

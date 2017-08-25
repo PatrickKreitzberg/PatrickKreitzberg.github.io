@@ -5,12 +5,12 @@
 1. [Introduction](#introduction)
 1. [Dependencies](#dependencies)
 1. [Data](#data)
-4. [Acknowledgements](#ack)
-5. [UI Features](#uifeatures)
-6. [Markers](#markers)
-7. Run Model
-8. Plot Data Along A Path
-9. [To do](#todo)
+1. [Acknowledgements](#ack)
+1. [UI Features](#uifeatures)
+1. [Markers](#markers)
+1. Run Model
+1. Plot Data Along A Path
+1. [To do](#todo)
 
 <a name="introduction"></a>
 # INTRODUCTION

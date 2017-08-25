@@ -106,6 +106,7 @@ The markers select your path along which data will be examined.  To mark a spot 
 [top](#top)
 
 <a name="todo"></a>
+# TO DO
 * Antartic data
 * STATIC PLOTTER
     * Don't always create 3 plots.  Can do more or less

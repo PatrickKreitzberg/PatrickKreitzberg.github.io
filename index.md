@@ -108,7 +108,9 @@ The markers select your path along which data will be examined.  To mark a spot 
 
 <a name="todo"></a>
 # TO DO
-* Antartic data
+* <b>Antartic data</b>
+    * Email bryce noel about RACMO SMB and t2m datasets.
+    * Find which papers to reference
 * User script to create data file of certain resolution
 * <b>SPEED</b>
     * up in any way (higher resolution data)
@@ -128,5 +130,6 @@ The markers select your path along which data will be examined.  To mark a spot 
     * Plot path, remove 'plot all' then click plot velocity width then plot -> crashes
     * Mesh can get a 'reduced to zero array' error -> find out how to trigger and fix/give instructions  
     * Each time velocity map loads it comes from RAM.  Each time bed map loads it comes from the SSD
+    
 [top](#top)
 

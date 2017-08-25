@@ -110,8 +110,10 @@ The markers select your path along which data will be examined.  To mark a spot 
 # TO DO
 * Antartic data
 * User script to create data file of certain resolution
-* Speed up in any way (higher resolution data)
+* <b>SPEED</b>
+    * up in any way (higher resolution data)
     * Hh5py in parallel? http://docs.h5py.org/en/latest/mpi.html
+    * Auto-load smaller colormap with cmd line option for full
 * Pick white integration path to graph/model
 * Add sliding parameters/changes to surface mass balance
 * Check that it obeys the resolution input each time

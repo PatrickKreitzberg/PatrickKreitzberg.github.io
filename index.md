@@ -115,6 +115,7 @@ The markers select your path along which data will be examined.  To mark a spot 
 * Pick white integration path to graph/model
 * Add sliding parameters/changes to surface mass balance
 * Check that it obeys the resolution input each time
+* Change surface to being above the geoid not above average sea level
 * <b>MODEL</b>
     * Pause/play button for model run-back
 * <b>STATIC PLOTTER</b>

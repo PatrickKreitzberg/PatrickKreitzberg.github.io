@@ -3,8 +3,8 @@
 
 ## Table of contents:
 1. [Introduction](#introduction)
-2. [Dependencies](#dependencies)
-3. [Data](#data)
+1. [Dependencies](#dependencies)
+1. [Data](#data)
 4. [Acknowledgements](#ack)
 5. [UI Features](#uifeatures)
 6. [Markers](#markers)

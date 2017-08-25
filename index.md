@@ -108,8 +108,16 @@ The markers select your path along which data will be examined.  To mark a spot 
 <a name="todo"></a>
 # TO DO
 * Antartic data
+* User script to create data file of certain resolution
+* Speed up in any way (higher resolution data)
+* Pick white integration path to graph/model
+* Add sliding parameters/changes to surface mass balance
+* Check that it obeys the resolution input each time
+* <b>MODEL</b>
+    * Pause/play button for model run-back
 * <b>STATIC PLOTTER</b>
     * Don't always create 3 plots.  Can do more or less
-* User script to create data file of certain resolution
+    * Right side panel max width
+    * Could do 6 grid boxes with 5 plots and 1 for buttons
 
 

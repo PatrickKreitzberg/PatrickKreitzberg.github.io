@@ -119,6 +119,8 @@ The markers select your path along which data will be examined.  To mark a spot 
 * <b>STATIC PLOTTER</b>
     * Don't always create 3 plots.  Can do more or less
     * Right side panel max width
-    * Could do 6 grid boxes with 5 plots and 1 for buttons  
+    * Could do 6 grid boxes with 5 plots and 1 for buttons 
+* <b>BUGS</b>
+    * Plot path, remove 'plot all' then click plot velocity width then plot -> crashes
 [top](#top)
 

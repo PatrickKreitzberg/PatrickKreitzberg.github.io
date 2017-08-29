@@ -131,6 +131,10 @@ The markers select your path along which data will be examined.  To mark a spot 
     * Plot path, remove 'plot all' then click plot velocity width then plot -> crashes
     * Mesh can get a 'reduced to zero array' error -> find out how to trigger and fix/give instructions  
     * Each time velocity map loads it comes from RAM.  Each time bed map loads it comes from the SSD
+* <b>CMD LINE</b>
+    * Option to use low-res colormaps
+    * Option to not use multiprocessing when loading interpolators
+    
     
 [top](#top)
 

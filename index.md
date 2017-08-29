@@ -120,6 +120,7 @@ The markers select your path along which data will be examined.  To mark a spot 
 * Add sliding parameters/changes to surface mass balance
 * Check that it obeys the resolution input each time
 * Change surface to being above the geoid not above average sea level
+* Add checkbox to remove used colormaps from memory 
 * <b>MODEL</b>
     * Pause/play button for model run-back
 * <b>STATIC PLOTTER</b>

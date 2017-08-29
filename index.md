@@ -23,6 +23,9 @@ This was created by Patrick Kreitzberg under the guidance of Dr. Jesse Johnson a
 
 (Python 2.7)
 
+### MPI4PY
+Guide to setting up mpi4py [here](http://drtiresome.com/2016/08/23/build-and-install-mpi-parallel-hdf5-and-h5py-from-source-on-linux/)
+
 ### Fenics
 
 sudo add-apt-repository ppa:fenics-packages/fenics  

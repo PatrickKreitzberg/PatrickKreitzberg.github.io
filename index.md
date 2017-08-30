@@ -50,6 +50,12 @@ Specifically:
 * make install check  
 * Add to path by appending 'export PATH=/home/pat/packages/hdf_install/bin:$PATH' to bashrc file.
 
+## h5py
+* [Download the tar](https://pypi.python.org/pypi/h5py/2.7.0)
+* Unzip and CD into directory in terminal
+   * export CC=mpicc  
+   * python setup.py configure --mpi --hdf5=/path/to/hdf5  
+
 
 
 

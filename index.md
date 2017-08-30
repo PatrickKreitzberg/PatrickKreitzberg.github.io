@@ -28,11 +28,21 @@ Parallel HDF5 will not be mandatory but will help with boot-up speed.  To not us
 [Download hdf5 source](https://www.hdfgroup.org/downloads/hdf5/source-code/)  
 
 cd into the hdf folder then install using  
-CC=/usr/bin/mpicc ./configure --enable-parallel --prefix=/home/pat/hdf_install/  
+CC=<path to mpicc> ./configure --enable-parallel --prefix=<path to hdf install>
 Where <path to mpicc> for me was /usr/bin/mpicc  
 and <path to hdf install> I set as /home/pat/hdf_install/  
 MUST USE --enable-parallel
 
+Then:
+make  
+make check  
+make install  
+make install-check  
+
+[Download h5py](https://pypi.python.org/pypi/h5py/2.7.0)  
+Unpack files then configure using
+export CC=mpicc
+python setup.py configure --mpi --hdf5=<path to hdf install>
 
 
 

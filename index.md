@@ -12,6 +12,24 @@
 1. Plot Data Along A Path
 1. [To do](#todo)
 
+
+# INSTALLING PARALLEL HDF5  
+## MPICH  
+[Download](http://www.mpich.org/downloads/) Used mpich-3.2 as it was the stable release at the time.  Do not use Hydra, but use the full distribution  
+Because I used a fresh linux install I needed to update gcc compilers: apt-get install gcc g++  
+Configure MPICH before install:
+./configure --enable-romio --enable-shared --with-device=ch3:sock --disable-fortran --prefix=/home/pat/packages/mpich_install/
+make  
+make check  
+make install  
+make install check  
+Add mpicc to path by appending 'export PATH=/home/pat/packages/mpich_install/bin:$PATH' onto .bashrc file.    
+
+Since it was clean install i must install python-dev so mpi4py can build
+sudo apt-get install python-dev
+
+
+
 <a name="introduction"></a>
 # INTRODUCTION
 This was created by Patrick Kreitzberg under the guidance of Dr. Jesse Johnson at the University of Montana.  The program is a tool to help create data profiles using a gui. yada yada  

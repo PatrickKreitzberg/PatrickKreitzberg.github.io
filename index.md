@@ -57,6 +57,7 @@ Specifically:
    * export CC=mpicc  
    * python setup.py configure --mpi --hdf5=/path/to/hdf5 
    * python setup.py build
+   * sudo python setup.py install
 '''
 
 

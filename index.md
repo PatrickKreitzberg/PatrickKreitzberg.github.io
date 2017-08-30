@@ -37,7 +37,7 @@ Then:
 make  
 make check  
 make install  
-make install-check  
+make install check  
 
 [Download h5py](https://pypi.python.org/pypi/h5py/2.7.0)  
 Unpack files then configure using

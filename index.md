@@ -15,15 +15,16 @@
 
 # INSTALLING PARALLEL HDF5  
 ## MPICH  
-[Download](http://www.mpich.org/downloads/) Used mpich-3.2 as it was the stable release at the time.  Do not use Hydra, but use the full distribution  
-Because I used a fresh linux install I needed to update gcc compilers: apt-get install gcc g++  
-Configure MPICH before install:
-./configure --enable-romio --enable-shared --with-device=ch3:sock --disable-fortran --prefix=/home/pat/packages/mpich_install/
-make  
-make check  
-make install  
-make install check  
-Add mpicc to path by appending 'export PATH=/home/pat/packages/mpich_install/bin:$PATH' onto .bashrc file.    
+* [Download](http://www.mpich.org/downloads/) and unpack  
+* Used mpich-3.2 as it was the stable release at the time.  Do not use Hydra, use the full dist.  
+* Because I used a fresh linux install I needed to update gcc compilers: apt-get install gcc g++   
+* Configure MPICH before install inside the mpich folder:  
+    * ./configure --enable-romio --enable-shared --with-device=ch3:sock --disable-fortran --prefix=/home/pat/packages/mpich_install/
+    * make  
+    * make check  
+    * make install  
+    * make install check  
+* Add mpicc to path by appending 'export PATH=/home/pat/packages/mpich_install/bin:$PATH' onto .bashrc file.    
 
 ## MPI4PY 
 

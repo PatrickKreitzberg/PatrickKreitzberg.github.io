@@ -42,11 +42,12 @@
 [Download files](https://support.hdfgroup.org/HDF5/release/obtain5.html)  
 [Followed instructions here](https://support.hdfgroup.org/ftp/HDF5/current/src/unpacked/release_docs/INSTALL_parallel)  
 Specifically:  
-CC=/home/pat/packages/mpich_install/bin/mpicc ./configure --enable-parallel --prefix=/home/pat/packages/hdf_install/  
-make  
-make check  
-make install  
-make install check  
+* CC=/home/pat/packages/mpich_install/bin/mpicc ./configure --enable-parallel --prefix=/home/pat/packages/hdf_install/  
+* make  
+* make check  
+   * I did get an error in the testph5diff.sh test but this just tests error output against a saved text file so you can skip with make -i check.  Possibly the MPI gives a different error output then what HDF is looking for.
+* make install  
+* make install check  
 
 
 

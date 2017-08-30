@@ -19,35 +19,40 @@
 * Used mpich-3.2 as it was the stable release at the time.  Do not use Hydra, use the full dist.  
 * Because I used a fresh linux install I needed to update gcc compilers: apt-get install gcc g++   
 * Configure MPICH before install inside the mpich folder:  
-    * ./configure --enable-romio --enable-shared --with-device=ch3:sock --disable-fortran --prefix=/home/pat/packages/mpich_install/
+```
+./configure --enable-romio --enable-shared --with-device=ch3:sock --disable-fortran --prefix=/home/pat/packages/mpich_install/
     * make  
     * make check  
     * make install  
-    * make install check  
+$ make install check  
+```
 * Add mpicc to path by appending 'export PATH=/home/pat/packages/mpich_install/bin:$PATH' onto .bashrc file.    
 
 ## MPI4PY 
 
 * Since it was clean install i must install python-dev so mpi4py can build  
-   * sudo apt-get install python-dev  
+```$ sudo apt-get install python-dev  ```
 * [I followed these directions which I will print below](http://mpi4py.scipy.org/docs/usrman/install.html)  
 * [Download the mpi4py distribution](https://pypi.python.org/pypi/mpi4py)  
 * Then unpack and cd into the directory. 
 * I edited mpi.cfg file to include 'mpi_dir = /home/pat/packages/mpich_install' but I am not sure if this was neccesary.   
 * In terminal:
-   * python setup.py build --mpicc=/path/to/mpich/bin
-   * python setup.py install
+```
+$ python setup.py build --mpicc=/path/to/mpich/bin
+$ python setup.py install```
 
 ## parallel HDF  
 [Download files](https://support.hdfgroup.org/HDF5/release/obtain5.html)  
 [Followed instructions here](https://support.hdfgroup.org/ftp/HDF5/current/src/unpacked/release_docs/INSTALL_parallel)  
 Specifically:  
-* CC=/home/pat/packages/mpich_install/bin/mpicc ./configure --enable-parallel --prefix=/home/pat/packages/hdf_install/  
-* make  
-* make check  
-   * I did get an error in the testph5diff.sh test but this just tests error output against a saved text file so you can skip with make -i check.  Possibly the MPI gives a different error output then what HDF is looking for.
-* make install  
-* make install check  
+```
+$ CC=/home/pat/packages/mpich_install/bin/mpicc ./configure --enable-parallel --prefix=/home/pat/packages/hdf_install/  
+$ make  
+$ make check  ```
+* I did get an error in the testph5diff.sh test but this just tests error output against a saved text file so you can skip with make -i check.  Possibly the MPI gives a different error output then what HDF is looking for.
+```
+$ make install  
+$ make install check  ```
 * Add to path by appending 'export PATH=/home/pat/packages/hdf_install/bin:$PATH' to bashrc file.
 
 ## h5py

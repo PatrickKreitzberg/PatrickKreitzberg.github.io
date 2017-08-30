@@ -30,17 +30,17 @@ Add mpicc to path by appending 'export PATH=/home/pat/packages/mpich_install/bin
 Since it was clean install i must install python-dev so mpi4py can build  
 sudo apt-get install python-dev  
 
-pip install was not able to find mpi.h so I had to tell the installation where it was
+pip install was not able to find mpi.h so I had to tell the installation where it was  
 To do this [download the distribution](https://pypi.python.org/pypi/mpi4py).    
 [I followed these directions which I will print below](http://mpi4py.scipy.org/docs/usrman/install.html)  
 Then unpack and cd into the directory. 
-In terminal type 'python setup.py build --mpicc=/home/pat/packages/mpich_install/bin' or wherever your mpicc file is located
+In terminal type 'python setup.py build --mpicc=/home/pat/packages/mpich_install/bin' or wherever your mpicc file is located  
 
-## parallel HDF
-[Download files](https://support.hdfgroup.org/HDF5/release/obtain5.html)
-[Followed instructions here](https://support.hdfgroup.org/ftp/HDF5/current/src/unpacked/release_docs/INSTALL_parallel)
-Specifically:
-CC=/home/pat/packages/mpich_install/bin/mpicc ./configure --enable-parallel --prefix=/home/pat/packages/hdf_install/
+## parallel HDF  
+[Download files](https://support.hdfgroup.org/HDF5/release/obtain5.html)  
+[Followed instructions here](https://support.hdfgroup.org/ftp/HDF5/current/src/unpacked/release_docs/INSTALL_parallel)  
+Specifically:  
+CC=/home/pat/packages/mpich_install/bin/mpicc ./configure --enable-parallel --prefix=/home/pat/packages/hdf_install/  
 make  
 make check  
 make install  

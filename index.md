@@ -30,8 +30,8 @@
 
 * Since it was clean install i must install python-dev so mpi4py can build  
    * sudo apt-get install python-dev  
-* [Download the mpi4py distribution](https://pypi.python.org/pypi/mpi4py)  
 * [I followed these directions which I will print below](http://mpi4py.scipy.org/docs/usrman/install.html)  
+* [Download the mpi4py distribution](https://pypi.python.org/pypi/mpi4py)  
 * Then unpack and cd into the directory. 
 * In terminal:
    * python setup.py build --mpicc=/path/to/mpich/bin

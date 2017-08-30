@@ -23,6 +23,19 @@ This was created by Patrick Kreitzberg under the guidance of Dr. Jesse Johnson a
 
 (Python 2.7)
 
+### PARALLEL HDF5  
+Parallel HDF5 will not be mandatory but will help with boot-up speed.  To not use parallel start with '-p false'  
+[Download hdf5 source](https://www.hdfgroup.org/downloads/hdf5/source-code/)  
+
+cd into the hdf folder then install using  
+CC=/usr/bin/mpicc ./configure --enable-parallel --prefix=/home/pat/hdf_install/  
+Where <path to mpicc> for me was /usr/bin/mpicc  
+and <path to hdf install> I set as /home/pat/hdf_install/  
+MUST USE --enable-parallel
+
+
+
+
 ### MPI4PY
 Guide to setting up mpi4py [here](http://drtiresome.com/2016/08/23/build-and-install-mpi-parallel-hdf5-and-h5py-from-source-on-linux/)
 

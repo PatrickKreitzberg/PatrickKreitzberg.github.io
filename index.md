@@ -33,8 +33,10 @@
 * [I followed these directions which I will print below](http://mpi4py.scipy.org/docs/usrman/install.html)  
 * [Download the mpi4py distribution](https://pypi.python.org/pypi/mpi4py)  
 * Then unpack and cd into the directory. 
+* I edited mpi.cfg file to include 'mpi_dir = /home/pat/packages/mpich_install' but I am not sure if this was neccesary.   
 * In terminal:
    * python setup.py build --mpicc=/path/to/mpich/bin
+   * python setup.py install
 
 ## parallel HDF  
 [Download files](https://support.hdfgroup.org/HDF5/release/obtain5.html)  

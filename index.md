@@ -53,12 +53,12 @@ Specifically:
 ## h5py
 * [Download the tar](https://pypi.python.org/pypi/h5py/2.7.0)
 * Unzip and CD into directory in terminal
-'''
+```
    * export CC=mpicc  
    * python setup.py configure --mpi --hdf5=/path/to/hdf5 
    * python setup.py build
    * sudo python setup.py install
-'''
+```
 
 
 

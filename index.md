@@ -48,6 +48,7 @@ Specifically:
    * I did get an error in the testph5diff.sh test but this just tests error output against a saved text file so you can skip with make -i check.  Possibly the MPI gives a different error output then what HDF is looking for.
 * make install  
 * make install check  
+* Add to path by appending 'export PATH=/home/pat/packages/hdf_install/bin:$PATH' to bashrc file.
 
 
 

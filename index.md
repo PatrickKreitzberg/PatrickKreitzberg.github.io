@@ -113,10 +113,13 @@ sudo pip install h5py
 (I don't think PyQt5 works with python 2.7)  
 ```
 apt-cache search pyqt  
-sudo apt-get install python-qt4  ```
+sudo apt-get install python-qt4  
+```
     
 ### PyDistMesh
-```sudo pip install PyDistMesh```  
+```
+sudo pip install PyDistMesh
+```
 Reference:  
 P.-O. Persson, G. Strang, A Simple Mesh Generator in MATLAB. SIAM Review, Volume 46 (2), pp. 329-345, June 2004  
 

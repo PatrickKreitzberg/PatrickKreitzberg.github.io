@@ -88,28 +88,34 @@ $ sudo python setup.py install
 # Required whether using pHDF5 or not
 
 ### Fenics
-
+```
 sudo add-apt-repository ppa:fenics-packages/fenics  
 sudo apt-get update  
 sudo apt-get install --no-install-recommends fenics   
 sudo apt-get dist-upgrade  
+```
 
 ### PyLab  
+```
 sudo apt-get install python-numpy python-scipy python-matplotlib
+```
 
 ### PyQtGraph  
+```
 sudo pip install pyqtgraph
+```
 
 ### H5py (if didn't install with parallel HDF5)
+```
 sudo pip install h5py
-
+```
 ### PyQt4  
-(I don't think PyQt5 works with python 2.7)  
+(I don't think PyQt5 works with python 2.7)  ```
 apt-cache search pyqt  
-sudo apt-get install python-qt4
+sudo apt-get install python-qt4  ```
     
 ### PyDistMesh
-sudo pip install PyDistMesh  
+```sudo pip install PyDistMesh```  
 Reference:  
 P.-O. Persson, G. Strang, A Simple Mesh Generator in MATLAB. SIAM Review, Volume 46 (2), pp. 329-345, June 2004  
 

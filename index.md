@@ -61,7 +61,7 @@ $ make install check
     * export PATH=/home/pat/packages/hdf_install/bin:$PATH
 
 ## h5py
-* (requires numpy and Cython both can be installed using pip)
+* (requires numpy, Cython, setuptools, and pkgconfig)  
 * [Download the tar](https://pypi.python.org/pypi/h5py/2.7.0)
 * Unzip and CD into directory in terminal
 ```

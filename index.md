@@ -26,8 +26,10 @@ This was created by Patrick Kreitzberg under the guidance of Dr. Jesse Johnson a
 
 (Python 2.7)
 
-# INSTALLING PARALLEL HDF5  
-## MPICH  
+# Installing Parallel HDF5 (pHDF5)  
+Parallel HDF5 is not necessary but can greatly increase the speed of the program-especially on start up.  
+
+## MPICH (Required for pHDF5)  
 * [Download](http://www.mpich.org/downloads/) and unpack  
 * Used mpich-3.2 as it was the stable release at the time.  Do not use Hydra, use the full dist.  
 * Because I used a fresh linux install I needed to update gcc compilers: apt-get install gcc g++   
@@ -41,7 +43,7 @@ $ make install check
 ```
 * Add mpicc to path by appending 'export PATH=/home/pat/packages/mpich_install/bin:$PATH' onto .bashrc file.    
 
-## MPI4PY 
+## mpi4py (Required for pHDF5)   
 
 * Since it was clean install i must install python-dev so mpi4py can build  (fixes Python.h not found error)
 ```$ sudo apt-get install python-dev  ```
@@ -56,7 +58,7 @@ $ python setup.py build --mpicc=/path/to/mpich/bin
 $ sudo python setup.py install  
 ```
 
-## parallel HDF  
+## pHDF5  
 [Download files](https://support.hdfgroup.org/HDF5/release/obtain5.html)  
 [Followed instructions here](https://support.hdfgroup.org/ftp/HDF5/current/src/unpacked/release_docs/INSTALL_parallel)  
 Specifically:  
@@ -73,7 +75,7 @@ $ make install check
 * Add to path by appending the following to the bashrc file
     * export PATH=/home/pat/packages/hdf_install/bin:$PATH
 
-## h5py
+## h5py (Required for pHDF5)  
 * (requires numpy, Cython, setuptools, and pkgconfig)  
 * [Download the tar](https://pypi.python.org/pypi/h5py/2.7.0)
 * Unzip and CD into directory in terminal
@@ -83,6 +85,9 @@ $ python setup.py configure --mpi --hdf5=/path/to/hdf5
 $ python setup.py build
 $ sudo python setup.py install
 ```
+
+# Required whether using pHDF5 or not
+
 ### Fenics
 
 sudo add-apt-repository ppa:fenics-packages/fenics  

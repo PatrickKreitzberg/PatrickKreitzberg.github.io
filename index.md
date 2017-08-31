@@ -13,8 +13,6 @@
 1. [To do](#todo)
 
 
-
-
 <a name="introduction"></a>
 # INTRODUCTION
 This was created by Patrick Kreitzberg under the guidance of Dr. Jesse Johnson at the University of Montana.  The program is a tool to help create data profiles using a gui. yada yada  
@@ -158,8 +156,27 @@ M. Morlighem, E. Rignot, J. Mouginot, H. Seroussi and E. Larour, Deeply incised 
 ![Image](http://www.patkreitzberg.com/gl.png)
 
 1. Colormap image with key  
-2. Map drop down selection
-* Select colormap of different data sets (bed elevation, surface elevation, etc.)
+1. Map drop down selection
+* Used to select which map you want to see.
+1. Auto-correct marker position checkbox
+* Attempts to correct the marker to place it into the center of an ice stream
+1. Instructions
+* Loads a pop up window with short instructions for running the program.
+1. Clear Points Button
+* Removes the markers from the program.
+1. Integrate (also available by shift+clicking a marker)
+* Provides an integrated velocity stream for the last marker put down (or which ever marker is clicked)
+1. Plot Path Button
+* Plots all the data along the profile in a pop-up window.  The window has a seperate GUI.
+1. Run Model Button
+* Run the 1d profile model on the selected path.
+1. High-res Interpolators Button
+* Select to load the full sized data set and create interpolators on the data.  This can take several minutes.
+* High-res data set is 150m resolution
+1. Generate Mesh Button
+* Creates a new window with a graph to show the mesh and its own GUI.  Uses PyDistMesh package to create the mesh.
+* Save the mesh to a custom directory.  This creates an .xml file for the mesh as well as <b>FIXME</b>
+
 
 [top](#top)  
 <a name="markers"></a>
@@ -189,6 +206,7 @@ The markers select your path along which data will be examined.  To mark a spot 
 * Change surface to being above the geoid not above average sea level
 * Add checkbox to remove used colormaps from memory
 * Smooth velocity width data
+* Add more pictures to this site
 * <b>MODEL</b>
     * Pause/play button for model run-back
 * <b>STATIC PLOTTER</b>

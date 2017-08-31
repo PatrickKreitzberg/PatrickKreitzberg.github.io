@@ -13,6 +13,19 @@
 1. [To do](#todo)
 
 
+
+
+<a name="introduction"></a>
+# INTRODUCTION
+This was created by Patrick Kreitzberg under the guidance of Dr. Jesse Johnson at the University of Montana.  The program is a tool to help create data profiles using a gui. yada yada  
+
+![Image](http://www.patkreitzberg.com/gl.png)
+[top](#top)
+<a name="dependencies"></a>
+# DEPENDENCIES
+
+(Python 2.7)
+
 # INSTALLING PARALLEL HDF5  
 ## MPICH  
 * [Download](http://www.mpich.org/downloads/) and unpack  
@@ -70,44 +83,6 @@ $ python setup.py configure --mpi --hdf5=/path/to/hdf5
 $ python setup.py build
 $ sudo python setup.py install
 ```
-
-<a name="introduction"></a>
-# INTRODUCTION
-This was created by Patrick Kreitzberg under the guidance of Dr. Jesse Johnson at the University of Montana.  The program is a tool to help create data profiles using a gui. yada yada  
-
-![Image](http://www.patkreitzberg.com/gl.png)
-[top](#top)
-<a name="dependencies"></a>
-# DEPENDENCIES
-
-(Python 2.7)
-
-### PARALLEL HDF5  
-Parallel HDF5 will not be mandatory but will help with boot-up speed.  To not use parallel start with '-p false'  
-[Download hdf5 source](https://www.hdfgroup.org/downloads/hdf5/source-code/)  
-
-cd into the hdf folder then install using  
-CC=/path/to/mpicc ./configure --enable-parallel --prefix=path/to/hdf/install
-Where path/to/mpicc for me was /usr/bin/mpicc  
-and path/to/hdf/install I set as /home/pat/hdf_install/  
-MUST USE --enable-parallel
-
-Then:
-make  
-make check  
-make install  
-make install check  
-
-[Download h5py](https://pypi.python.org/pypi/h5py/2.7.0)  
-Unpack files then configure using
-export CC=mpicc
-python setup.py configure --mpi --hdf5=/path/to/hdf/install
-
-
-
-### MPI4PY
-Guide to setting up mpi4py [here](http://drtiresome.com/2016/08/23/build-and-install-mpi-parallel-hdf5-and-h5py-from-source-on-linux/)
-
 ### Fenics
 
 sudo add-apt-repository ppa:fenics-packages/fenics  
@@ -121,7 +96,7 @@ sudo apt-get install python-numpy python-scipy python-matplotlib
 ### PyQtGraph  
 sudo pip install pyqtgraph
 
-### H5py  
+### H5py (if didn't install with parallel HDF5)
 sudo pip install h5py
 
 ### PyQt4  
@@ -131,6 +106,7 @@ sudo apt-get install python-qt4
     
 ### PyDistMesh
 sudo pip install PyDistMesh  
+Reference:  
 P.-O. Persson, G. Strang, A Simple Mesh Generator in MATLAB. SIAM Review, Volume 46 (2), pp. 329-345, June 2004  
 
 [top](#top)

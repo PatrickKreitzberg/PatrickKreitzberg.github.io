@@ -40,7 +40,7 @@ $ make install check
 * In terminal:
 ```
 $ python setup.py build --mpicc=/path/to/mpich/bin  
-$ python setup.py install  
+$ sudo python setup.py install  
 ```
 
 ## parallel HDF  

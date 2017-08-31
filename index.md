@@ -177,7 +177,7 @@ M. Morlighem, E. Rignot, J. Mouginot, H. Seroussi and E. Larour, Deeply incised 
 * Creates a new window with a graph to show the mesh and its own GUI.  Uses PyDistMesh package to create the mesh.
 * Save the mesh to a custom directory.  This creates an .xml file for the mesh as well as <b>FIXME</b>
 
-<iframe src="https://app.box.com/embed/preview/zdboo7of47lk0lh156yv3mi65tfhimzj?theme=dark" width="500" height="400" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
+![Image](https://app.box.com/representation/file_version_230547027390/image_2048/1.png?shared_name=zdboo7of47lk0lh156yv3mi65tfhimzj)
 
 
 [top](#top)  

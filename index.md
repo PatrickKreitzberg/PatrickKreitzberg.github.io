@@ -19,7 +19,7 @@
 # INTRODUCTION
 This was created by Patrick Kreitzberg under the guidance of Dr. Jesse Johnson at the University of Montana.  The program is a tool to help create data profiles using a gui. yada yada  
 
-![Image](http://www.patkreitzberg.com/gl.png)
+
 [top](#top)
 <a name="dependencies"></a>
 # DEPENDENCIES
@@ -155,6 +155,7 @@ M. Morlighem, E. Rignot, J. Mouginot, H. Seroussi and E. Larour, Deeply incised 
 [top](#top)  
 <a name="uifeatures"></a>
 # UI Features
+![Image](http://www.patkreitzberg.com/gl.png)
 
 1. Colormap image with key  
 2. Map drop down selection

@@ -66,7 +66,7 @@ $ CC=/home/pat/packages/mpich_install/bin/mpicc ./configure --enable-parallel --
 $ make  
 $ make check  
 ```
-* I did get an error in the testph5diff.sh test but this just tests error output against a saved text file so you can skip with make -i check.  Possibly the MPI gives a different error output then what HDF is looking for.
+* I did get an error in the testph5diff.sh test but this just tests error output against a saved text file so you can skip with make -i check.  Possibly the MPI gives a different error output than what HDF is looking for.
 ```
 $ make install  
 $ make install check 

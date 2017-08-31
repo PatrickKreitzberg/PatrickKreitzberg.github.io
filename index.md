@@ -30,7 +30,7 @@ $ make install check
 
 ## MPI4PY 
 
-* Since it was clean install i must install python-dev so mpi4py can build  
+* Since it was clean install i must install python-dev so mpi4py can build  (fixes Python.h not found error)
 ```$ sudo apt-get install python-dev  ```
 * [I followed these directions which I will print below](http://mpi4py.scipy.org/docs/usrman/install.html)  
 * [Download the mpi4py distribution](https://pypi.python.org/pypi/mpi4py)  

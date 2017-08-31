@@ -21,7 +21,7 @@
 * Configure MPICH before install inside the mpich folder:  
 ```
 $ ./configure --enable-romio --enable-shared --with-device=ch3:sock --disable-fortran --prefix=/home/pat/packages/mpich_install/
-$ make  
+$ make   
 $ make check  
 $ make install  
 $ make install check  
@@ -35,11 +35,13 @@ $ make install check
 * [I followed these directions which I will print below](http://mpi4py.scipy.org/docs/usrman/install.html)  
 * [Download the mpi4py distribution](https://pypi.python.org/pypi/mpi4py)  
 * Then unpack and cd into the directory. 
-* I edited mpi.cfg file to include 'mpi_dir = /home/pat/packages/mpich_install' but I am not sure if this was neccesary.   
+* Not sure if necessary but I edited mpi.cfg file to include 
+    * mpi_dir = /home/pat/packages/mpich_install 
 * In terminal:
 ```
-$ python setup.py build --mpicc=/path/to/mpich/bin
-$ python setup.py install```
+$ python setup.py build --mpicc=/path/to/mpich/bin  
+$ python setup.py install  
+```
 
 ## parallel HDF  
 [Download files](https://support.hdfgroup.org/HDF5/release/obtain5.html)  
@@ -48,12 +50,15 @@ Specifically:
 ```
 $ CC=/home/pat/packages/mpich_install/bin/mpicc ./configure --enable-parallel --prefix=/home/pat/packages/hdf_install/  
 $ make  
-$ make check  ```
+$ make check  
+```
 * I did get an error in the testph5diff.sh test but this just tests error output against a saved text file so you can skip with make -i check.  Possibly the MPI gives a different error output then what HDF is looking for.
 ```
 $ make install  
-$ make install check  ```
-* Add to path by appending 'export PATH=/home/pat/packages/hdf_install/bin:$PATH' to bashrc file.
+$ make install check 
+```
+* Add to path by appending the following to the bashrc file
+    * export PATH=/home/pat/packages/hdf_install/bin:$PATH
 
 ## h5py
 * [Download the tar](https://pypi.python.org/pypi/h5py/2.7.0)
@@ -64,9 +69,6 @@ $ python setup.py configure --mpi --hdf5=/path/to/hdf5
 $ python setup.py build
 $ sudo python setup.py install
 ```
-
-
-
 
 <a name="introduction"></a>
 # INTRODUCTION

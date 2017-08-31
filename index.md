@@ -53,7 +53,7 @@ $ make install check
     * mpi_dir = /home/pat/packages/mpich_install 
 * In terminal:
 ```
-$ python setup.py build --mpicc=/path/to/mpich/bin  
+$ python setup.py build --mpicc=/path/to/mpich/bin/mpicc  (must end in /bin/mpicc)  
 $ sudo python setup.py install  
 ```
 

@@ -20,10 +20,10 @@
 * Because I used a fresh linux install I needed to update gcc compilers: apt-get install gcc g++   
 * Configure MPICH before install inside the mpich folder:  
 ```
-./configure --enable-romio --enable-shared --with-device=ch3:sock --disable-fortran --prefix=/home/pat/packages/mpich_install/
-    * make  
-    * make check  
-    * make install  
+$ ./configure --enable-romio --enable-shared --with-device=ch3:sock --disable-fortran --prefix=/home/pat/packages/mpich_install/
+$ make  
+$ make check  
+$ make install  
 $ make install check  
 ```
 * Add mpicc to path by appending 'export PATH=/home/pat/packages/mpich_install/bin:$PATH' onto .bashrc file.    

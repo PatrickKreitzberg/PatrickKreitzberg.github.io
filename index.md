@@ -182,6 +182,11 @@ M. Morlighem, E. Rignot, J. Mouginot, H. Seroussi and E. Larour, Deeply incised 
 # Static Plotter
 ![Image](https://umt.box.com/shared/static/zdboo7of47lk0lh156yv3mi65tfhimzj.png)
 
+1. Spatial Resolution Input 
+1. Plot Button
+1. Check boxes for what data you want plotted.
+
+
 
 
 

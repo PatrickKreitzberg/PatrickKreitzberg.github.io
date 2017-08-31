@@ -155,25 +155,25 @@ M. Morlighem, E. Rignot, J. Mouginot, H. Seroussi and E. Larour, Deeply incised 
 # UI Features
 ![Image](http://www.patkreitzberg.com/gl.png)
 
-1. Colormap image with key  
-1. Map drop down selection
+1. __Colormap image with key__  
+1. __Map drop down selection__  
 * Used to select which map you want to see.
-1. Auto-correct marker position checkbox
+1. __Auto-correct marker position checkbox__  
 * Attempts to correct the marker to place it into the center of an ice stream
-1. Instructions
+1. __Instructions__
 * Loads a pop up window with short instructions for running the program.
-1. Clear Points Button
+1. __Clear Points Button__
 * Removes the markers from the program.
-1. Integrate (also available by shift+clicking a marker)
+1. __Integrate (also available by shift+clicking a marker)__
 * Provides an integrated velocity stream for the last marker put down (or which ever marker is clicked)
-1. Plot Path Button
+1. __Plot Path Button__
 * Plots all the data along the profile in a pop-up window.  The window has a seperate GUI.
-1. Run Model Button
+1. __Run Model Button__
 * Run the 1d profile model on the selected path.
-1. High-res Interpolators Button
+1. __High-res Interpolators Button__
 * Select to load the full sized data set and create interpolators on the data.  This can take several minutes.
 * High-res data set is 150m resolution
-1. Generate Mesh Button
+1. __Generate Mesh Button__
 * Creates a new window with a graph to show the mesh and its own GUI.  Uses PyDistMesh package to create the mesh.
 * Save the mesh to a custom directory.  This creates an .xml file for the mesh as well as <b>FIXME</b>
 

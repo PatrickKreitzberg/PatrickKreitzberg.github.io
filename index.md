@@ -6,7 +6,8 @@
 1. [Dependencies](#dependencies)
 1. [Data](#data)
 1. [Acknowledgements](#ack)
-1. [UI Features](#uifeatures)
+1. [Main UI Features](#uifeatures)
+1. [Static Plot UI](#uistatic)
 1. [Markers](#markers)
 1. Run Model
 1. Plot Data Along A Path
@@ -177,7 +178,12 @@ M. Morlighem, E. Rignot, J. Mouginot, H. Seroussi and E. Larour, Deeply incised 
 * Creates a new window with a graph to show the mesh and its own GUI.  Uses PyDistMesh package to create the mesh.
 * Save the mesh to a custom directory.  This creates an .xml file for the mesh as well as <b>FIXME</b>
 
+<a name="uistatic"></a>
+# Static Plotter
 ![Image](https://umt.box.com/shared/static/zdboo7of47lk0lh156yv3mi65tfhimzj.png)
+
+
+
 
 
 [top](#top)  

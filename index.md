@@ -209,21 +209,31 @@ The markers select your path along which data will be examined.  To mark a spot 
 * <b>Remove:</b> ctrl + click on marker.  
 * <b>Move:</b> click once on marker to pick it up then again to place it down.  
 * <b>Integrate:</b> shift + click to create a line from the marker which follows the velocity flow.  
-* <b>Snap:</b> move a marker near an integrate line then click when it snaps to line.  
+* <b>Snap:</b> move a marker near an integrate line then click when it snaps to line. 
+
+[top](#top)
+<a name="lines"></a>
+# Lines  
+Lines that flow along a velocity path can be created by holding shift and clicking on a marker.  
+* Ctrl + click on line deletes line
 
 [top](#top)
 
 <a name="todo"></a>
 # TO DO
 * <b>Antartic data</b>
-    * Email bryce noel about RACMO SMB and t2m datasets.
+    * <b>DONE</b> Email bryce noel about RACMO SMB and t2m datasets.
     * Find which papers to reference
 * User script to create data file of certain resolution
 * <b>SPEED</b>
     * up in any way (higher resolution data)
     * Hh5py in parallel? http://docs.h5py.org/en/latest/mpi.html
     * Auto-load smaller colormap with cmd line option for full
+    * Quicker way to load image?
+    * Main thread loads GUI and just velocity colormap
 * Pick white integration path to graph/model
+   * Move ends in and out
+   * Pick line resolution
 * Add sliding parameters/changes to surface mass balance
 * Check that it obeys the resolution input each time
 * Change surface to being above the geoid not above average sea level

@@ -12,6 +12,7 @@
 1. Run Model
 1. Plot Data Along A Path
 1. [To do](#todo)
+1. [Detailed Docmentation](#docu)
 
 
 <a name="introduction"></a>
@@ -256,4 +257,34 @@ Lines that flow along a velocity path can be created by holding shift and clicki
     
     
 [top](#top)
+
+<a name="docu"></a>
+Classes:
+1. [Colorbar]
+1. [ColorBarAnchorWidget]
+1. [Dataset]
+1. [Instructions]
+1. [InterpolateData]
+1. [Marker]
+1. [MeshGUI]
+1. [ModelGUI]
+1. [ModelPlotter]
+1. [MyLegend]
+1. [StaticPlotter]
+
+Helper files:
+1. [colorMaps]
+1. [constancs]
+1. [create_CM_datasets]
+1. [data_functions]
+1. [dataset_objects]
+1. [gui]
+1. [gui_functions]
+1. [make_profile]
+1. [math_functions]
+1. [mesh_functions]
+1. [pens]
+1. [profile_driver]
+1. [velocity_functions]
+
 

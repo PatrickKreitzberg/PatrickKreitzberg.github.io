@@ -288,3 +288,11 @@ Helper files:
 1. [velocity_functions]
 
 
+# Classes
+
+## Colorbar  
+Colorbar class is the colorbar/key for the maps
+
+## 
+
+

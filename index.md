@@ -235,6 +235,7 @@ Lines that flow along a velocity path can be created by holding shift and clicki
 * Pick white integration path to graph/model
    * Move ends in and out
    * Pick line resolution
+* Does each data need pathdistance--waste of memory?
 * Add sliding parameters/changes to surface mass balance
 * Check that it obeys the resolution input each time
 * Change surface to being above the geoid not above average sea level
@@ -261,16 +262,16 @@ Lines that flow along a velocity path can be created by holding shift and clicki
 <a name="docu"></a>
 Classes:
 1. [Colorbar]
-1. [Colorbar_Anchor_Widget]
+1. [ColorbarAnchorWidget]
 1. [Dataset]
 1. [Instructions]
-1. [Interpolate_Data]
+1. [InterpolateData]
 1. [Marker]
-1. [Mesh_GUI]
-1. [Model_GUI]
-1. [Model_Plotter]
-1. [My_Legend]
-1. [Static_Plotter]
+1. [MeshGUI]
+1. [ModelGUI]
+1. [ModelPlotter]
+1. [MyLegend]
+1. [StaticPlotter]
 
 Helper files:
 1. [colorMaps]
@@ -291,8 +292,16 @@ Helper files:
 # Classes
 
 ## Colorbar  
-Colorbar class is the colorbar/key for the maps
+Colorbar class is the colorbar/key for the maps.
 
-## Colorbar
+## ColorbarAnchorWidget  
+PyQtGraph object which keeps the colorbar stationary.
+
+## Dataset  
+Object that holds the data for each map.  FIXME add more
+
+
+# Helper Files
+
 
 

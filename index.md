@@ -261,16 +261,16 @@ Lines that flow along a velocity path can be created by holding shift and clicki
 <a name="docu"></a>
 Classes:
 1. [Colorbar]
-1. [ColorBarAnchorWidget]
+1. [Colorbar_Anchor_Widget]
 1. [Dataset]
 1. [Instructions]
-1. [InterpolateData]
+1. [Interpolate_Data]
 1. [Marker]
-1. [MeshGUI]
-1. [ModelGUI]
-1. [ModelPlotter]
-1. [MyLegend]
-1. [StaticPlotter]
+1. [Mesh_GUI]
+1. [Model_GUI]
+1. [Model_Plotter]
+1. [My_Legend]
+1. [Static_Plotter]
 
 Helper files:
 1. [colorMaps]
@@ -293,6 +293,6 @@ Helper files:
 ## Colorbar  
 Colorbar class is the colorbar/key for the maps
 
-## 
+## Colorbar
 
 

@@ -32,61 +32,61 @@ This was created by Patrick Kreitzberg under the guidance of Dr. Jesse Johnson a
 [//]: # ## MPICH (Required for pHDF5)  
 [//]: # * [Download](http://www.mpich.org/downloads/) and unpack  
 [//]: # * Used mpich-3.2 as it was the stable release at the time.  Do not use Hydra, use the full dist.  
-* Because I used a fresh linux install I needed to update gcc compilers: apt-get install gcc g++   
-* Configure MPICH before install inside the mpich folder:  
-```
-$ ./configure --enable-romio --enable-shared --with-device=ch3:sock --disable-fortran --prefix=/home/pat/packages/mpich_install/
-$ make   
-$ make check  
-$ make install  
-$ make install check  
-```
-* Add mpicc to path by appending 'export PATH=/home/pat/packages/mpich_install/bin:$PATH' onto .bashrc file.    
+[//]: # * Because I used a fresh linux install I needed to update gcc compilers: apt-get install gcc g++   
+[//]: # * Configure MPICH before install inside the mpich folder:  
+[//]: # ```
+[//]: # $ ./configure --enable-romio --enable-shared --with-device=ch3:sock --disable-fortran --prefix=/home/pat/packages/mpich_install/
+[//]: # $ make   
+[//]: # $ make check  
+[//]: # $ make install  
+[//]: # $ make install check  
+[//]: # ```
+[//]: # * Add mpicc to path by appending 'export PATH=/home/pat/packages/mpich_install/bin:$PATH' onto .bashrc file.    
 
-## mpi4py (Required for pHDF5)   
+[//]: # ## mpi4py (Required for pHDF5)   
 
-* Since it was clean install i must install python-dev so mpi4py can build  (fixes Python.h not found error)
-```$ sudo apt-get install python-dev  ```
-* [I followed these directions which I will print below](http://mpi4py.scipy.org/docs/usrman/install.html)  
-* [Download the mpi4py distribution](https://pypi.python.org/pypi/mpi4py)  
-* Then unpack and cd into the directory. 
-* Not sure if necessary but I edited mpi.cfg file to include 
-    * mpi_dir = /home/pat/packages/mpich_install 
-* In terminal:
-```
-$ python setup.py build --mpicc=/path/to/mpich/bin/mpicc  (must end in /bin/mpicc)  
-$ sudo python setup.py install  
-```
+[//]: # * Since it was clean install i must install python-dev so mpi4py can build  (fixes Python.h not found error)
+[//]: # ```$ sudo apt-get install python-dev  ```
+[//]: # * [I followed these directions which I will print below](http://mpi4py.scipy.org/docs/usrman/install.html)  
+[//]: # * [Download the mpi4py distribution](https://pypi.python.org/pypi/mpi4py)  
+[//]: # * Then unpack and cd into the directory. 
+[//]: # * Not sure if necessary but I edited mpi.cfg file to include 
+[//]: #     * mpi_dir = /home/pat/packages/mpich_install 
+[//]: # * In terminal:
+[//]: # ```
+[//]: # $ python setup.py build --mpicc=/path/to/mpich/bin/mpicc  (must end in /bin/mpicc)  
+[//]: # $ sudo python setup.py install  
+[//]: # ```
 
-## pHDF5  
-[Download files](https://support.hdfgroup.org/HDF5/release/obtain5.html)  
-[Followed instructions here](https://support.hdfgroup.org/ftp/HDF5/current/src/unpacked/release_docs/INSTALL_parallel)  
-Specifically:  
-```
-$ CC=/home/pat/packages/mpich_install/bin/mpicc ./configure --enable-parallel --prefix=/home/pat/packages/hdf_install/  
-$ make  
-$ make check  
-```
-* I did get an error in the testph5diff.sh test but this just tests error output against a saved text file so you can skip with make -i check.  Possibly the MPI gives a different error output than what HDF is looking for.
-```
-$ make install  
-$ make install check 
-```
-* Add to path by appending the following to the bashrc file
-    * export PATH=/home/pat/packages/hdf_install/bin:$PATH
+[//]: # ## pHDF5  
+[//]: # [Download files](https://support.hdfgroup.org/HDF5/release/obtain5.html)  
+[//]: # [Followed instructions here](https://support.hdfgroup.org/ftp/HDF5/current/src/unpacked/release_docs/INSTALL_parallel)  
+[//]: # Specifically:  
+[//]: # ```
+[//]: # $ CC=/home/pat/packages/mpich_install/bin/mpicc ./configure --enable-parallel --prefix=/home/pat/packages/hdf_install/  
+[//]: # $ make  
+[//]: # $ make check  
+[//]: # ```
+[//]: # * I did get an error in the testph5diff.sh test but this just tests error output against a saved text file so you can skip with make -i check.  Possibly the MPI gives a different error output than what HDF is looking for.
+[//]: # ```
+[//]: # $ make install  
+[//]: # $ make install check 
+[//]: # ```
+[//]: # * Add to path by appending the following to the bashrc file
+[//]: #  [//]: #    * export PATH=/home/pat/packages/hdf_install/bin:$PATH
 
-## h5py (Required for pHDF5)  
-* (requires numpy, Cython, setuptools, and pkgconfig)  
-* [Download the tar](https://pypi.python.org/pypi/h5py/2.7.0)
-* Unzip and CD into directory in terminal
-```
-$ export CC=mpicc  
-$ python setup.py configure --mpi --hdf5=/path/to/hdf5 
-$ python setup.py build
-$ sudo python setup.py install
-```
+[//]: # ## h5py (Required for pHDF5)  
+[//]: # * (requires numpy, Cython, setuptools, and pkgconfig)  
+[//]: # * [Download the tar](https://pypi.python.org/pypi/h5py/2.7.0)
+[//]: # * Unzip and CD into directory in terminal
+[//]: # ```
+[//]: # $ export CC=mpicc  
+[//]: # $ python setup.py configure --mpi --hdf5=/path/to/hdf5 
+[//]: # $ python setup.py build
+[//]: # $ sudo python setup.py install
+[//]: # ```
 
-# Required whether using pHDF5 or not
+[//]: # # Required whether using pHDF5 or not
 
 ### Fenics
 ```

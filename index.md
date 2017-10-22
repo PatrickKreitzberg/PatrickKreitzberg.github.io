@@ -211,6 +211,17 @@ The markers select your path along which data will be examined.  To mark a spot 
 * <b>Move:</b> click once on marker to pick it up then again to place it down.  
 * <b>Integrate:</b> shift + click to create a line from the marker which follows the velocity flow.  
 * <b>Snap:</b> move a marker near an integrate line then click when it snaps to line. 
+# Marker attributes
+* <b>cx, cy</b>  These are the coordinate in pixels on the visual map itself (cx is x coord of color map).
+* <b>dx, dy</b>  These are the coordinate in the data files so the velocity nearest the marker is velocity.data[dy][dx] (may require taking floor of dx, dy.
+* <b>px, py</b>  Projected coordinates of the marker.  In the coordinates defined by the 2D projection of the data.  The data interpolators are calibrated to use px, py.
+* <b> </b>
+* <b> </b>
+* <b> </b>
+* <b> </b>
+* <b> </b>
+* <b> </b>
+
 
 [top](#top)
 <a name="lines"></a>

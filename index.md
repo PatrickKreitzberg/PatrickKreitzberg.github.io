@@ -215,12 +215,8 @@ The markers select your path along which data will be examined.  To mark a spot 
 * <b>cx, cy</b>  These are the coordinate in pixels on the visual map itself (cx is x coord of color map).
 * <b>dx, dy</b>  These are the coordinate in the data files so the velocity nearest the marker is velocity.data[dy][dx] (may require taking floor of dx, dy.
 * <b>px, py</b>  Projected coordinates of the marker.  In the coordinates defined by the 2D projection of the data.  The data interpolators are calibrated to use px, py.
-* <b> </b>
-* <b> </b>
-* <b> </b>
-* <b> </b>
-* <b> </b>
-* <b> </b>
+* <b> lines </b> Graphic lines displayed on map heading from previous marker, to the next one. lines[0] comes from prev marker.
+* <b> corss</b> Graphic lines displayed on map that form the X at the location of the marker.
 
 
 [top](#top)

@@ -26,12 +26,12 @@ This was created by Patrick Kreitzberg under the guidance of Dr. Jesse Johnson a
 
 (Python 2.7)
 
-# Installing Parallel HDF5 (pHDF5)  
-Parallel HDF5 is not necessary but can greatly increase the speed of the program-especially on start up.  
+[//]: # # Installing Parallel HDF5 (pHDF5)  
+[//]: # Parallel HDF5 is not necessary but can greatly increase the speed of the program-especially on start up.  
 
-## MPICH (Required for pHDF5)  
-* [Download](http://www.mpich.org/downloads/) and unpack  
-* Used mpich-3.2 as it was the stable release at the time.  Do not use Hydra, use the full dist.  
+[//]: # ## MPICH (Required for pHDF5)  
+[//]: # * [Download](http://www.mpich.org/downloads/) and unpack  
+[//]: # * Used mpich-3.2 as it was the stable release at the time.  Do not use Hydra, use the full dist.  
 * Because I used a fresh linux install I needed to update gcc compilers: apt-get install gcc g++   
 * Configure MPICH before install inside the mpich folder:  
 ```
